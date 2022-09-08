@@ -34,6 +34,13 @@ type Model struct {
 	Feedback []string `json:"feedback`
 }
 
+type feedbackResult struct {
+	feedbackTotal    int
+	feedbackPositive int
+	feedbackNegative int
+	feedbackNeutral  int
+}
+
 type rating float32
 
 const (
