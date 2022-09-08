@@ -42,6 +42,10 @@ type feedbackResult struct {
 	feedbackNeutral  int
 }
 
+var vehicle map[string] type feedbackResult
+
+var inventory []vehicle
+
 type rating float32
 
 const (
