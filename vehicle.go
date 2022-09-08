@@ -34,6 +34,7 @@ type Model struct {
 	Feedback []string `json:"feedback`
 }
 
+// feedbackResults array fields
 type feedbackResult struct {
 	feedbackTotal    int
 	feedbackPositive int
