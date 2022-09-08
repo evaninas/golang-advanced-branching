@@ -84,6 +84,8 @@ func init() {
 }
 
 func main() {
+
+	generateRating()
 }
 
 // Generate ratings for the different vehicles
