@@ -85,7 +85,9 @@ func init() {
 func main() {
 
 	// Generate ratings for the different vehicles
-
+func generateRating(){
+	
+}
 	// Print ratings for the different vehicles
 }
 
@@ -106,6 +108,3 @@ func readJSONFile() Values {
 	return content
 }
 
-func generateRating(){
-	
-}
