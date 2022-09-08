@@ -1,11 +1,11 @@
 package main
 
-import {
+import (
 	"encoding/json"
 	"io/ioutil"
 	"log"
 	"os"
-}
+)
 
 type vehicle interface {
 }
@@ -83,14 +83,11 @@ func init() {
 }
 
 func main() {
-
-	// Generate ratings for the different vehicles
-func generateRating(){
-	
-}
-	// Print ratings for the different vehicles
 }
 
+// Generate ratings for the different vehicles
+
+// Print ratings for the different vehicles
 
 func readJSONFile() Values {
 	jsonFile, err := os.Open("feedback.json")
@@ -107,4 +104,3 @@ func readJSONFile() Values {
 
 	return content
 }
-
