@@ -145,6 +145,7 @@ func generateRating() {
 }
 
 func showRating() {
+	ratingFound := false
 	for m, r := range vehicleResult{
 		if m == model
 	}
