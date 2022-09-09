@@ -143,11 +143,3 @@ func generateRating() {
 		vehicleResult[v.Name] = vehResult
 	}
 }
-
-func showRating() {
-	ratingFound := false
-	for m, r := range vehicleResult{
-		if m == model
-	}
-	model string
-}
