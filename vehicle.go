@@ -148,5 +148,5 @@ func showRating() {
 	for m, r := range vehicleResult{
 		if m == model
 	}
-	model type string
+	model string
 }
